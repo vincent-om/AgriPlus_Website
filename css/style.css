@@ -1,0 +1,76 @@
+* {
+    --color-primary: #ed661f;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Flex */
+.d-flex { display: flex;}
+.direction-row {flex-direction: row;}
+.direction-col {flex-direction: column;}
+.justify-space-between { justify-content: space-between;}
+.justify-space-around {justify-content: space-around;}
+.justify-center {justify-content: center;}
+.justify-start {justify-content: start;}
+.justify-end {justify-content: end;}
+.align-center {align-items: center;}
+.align-start {align-items: flex-start;}
+.align-end {align-items: flex-end;}
+
+
+
+.width-90vw {width: 90vw;}
+
+
+/* Colors */
+.color-primary {color: #ed661f;}
+.color-black {color: black;}
+.color-white {color: white;}
+
+.bg-black {background-color: black;}
+.bg-white {background-color: white;}
+.bg-primary {background-color: var(--color-primary);}
+
+
+/* Margin */
+.m-auto {margin: auto;}
+.m-left-right {margin-left: 0.6rem; margin-right: 0.6rem;}
+
+
+
+.btn {
+    padding: 0.6em;
+    text-align: center;
+}
+
+/* Style elements */
+ul {list-style: none;}
+
+a {text-decoration: none;} 
+a:active {border-bottom: 2px solid var(--color-primary);}
+
+
+/* Stylize the navbar */
+nav > div {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+
+nav div h1 a:hover,
+nav div ul a:hover,
+nav div div > a:first-child:hover {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+nav div div > a:nth-child(2):hover {
+    opacity: 0.9;
+}
+
+nav .logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+}
