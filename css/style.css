@@ -42,33 +42,41 @@
 
 
 
+/* STYLIZE CLASSES */
 .btn {
     padding: 0.6em;
     text-align: center;
 }
 
-/* Style elements */
+.hover-opacity:hover {
+    opacity: 0.9;
+}
+
+
+/* STYLE CLASSES */
 ul {list-style: none;}
 
-a {text-decoration: none;} 
-a:active {border-bottom: 2px solid var(--color-primary);}
+a {text-decoration: none;}
 
 
-/* Stylize the navbar */
+/* STYLIZE THE NAVBAR */
 nav > div {
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
 }
 
-nav div h1 a:hover,
-nav div ul a:hover,
-nav div div > a:first-child:hover {
+nav div:nth-child(1) a:hover,
+nav div:nth-child(2) a:hover,
+nav div:nth-child(3):first-child a:hover {
     border-bottom: 2px solid var(--color-primary);
 }
 
-nav div div > a:nth-child(2):hover {
-    opacity: 0.9;
+a:active {
+    text-decoration: none;
+    color: var(--color-primary);
 }
+
+
 
 nav .logo {
     font-family: 'Inter', sans-serif;
