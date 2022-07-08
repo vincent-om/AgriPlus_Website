@@ -42,11 +42,14 @@
 .height-100pc {height: 100pc;}
 
 
-/* Colors */
+/* Texts */
 .color-primary {color: #ed661f;}
 .color-black {color: black;}
 .color-white {color: white;}
+.text-align-center {text-align: center;}
 
+
+/* Background */
 .bg-black {background-color: black;}
 .bg-white {background-color: white;}
 .bg-primary {background-color: var(--color-primary);}
@@ -113,7 +116,6 @@ nav .logo {
     background-size: contain;
     background-repeat: repeat-x;
     position: relative;
-    background-color: red;
 }
 
 .section-1 .veggies-image img {
@@ -133,5 +135,25 @@ nav .logo {
     padding: 1.5rem;
     text-align: center;
     background-color: var(--color-primary);
-    margin-top: 9rem;
+    margin-top: 10vw;
+}
+
+/* STYLIZE THE INFORMATION */
+.section-2 {
+    position: relative;
+}
+
+.statistics {
+    position: absolute;
+    padding: 50px 30px;
+    left: 20%;
+    right: 20%;
+    top: -100px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.statistics:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
 }
