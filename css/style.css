@@ -21,7 +21,9 @@
 .align-center {align-items: center;}
 .align-start {align-items: flex-start;}
 .align-end {align-items: flex-end;}
-
+.flex-basis-20pc {flex-basis: 20%;}
+.grow-1 {flex-grow: 1;}
+.shrink-1 {flex-shrink: 1;}
 
 /* Float */
 .float-left {float: left;}
@@ -59,10 +61,13 @@
 .m-auto {margin: auto;}
 .m-left-right {margin-left: 0.6rem; margin-right: 0.6rem;}
 .m-top-bottom {margin-top: 1rem; margin-bottom: 1rem;}
+.m-top-bottom-5x {margin-top: 5px; margin-bottom: 5px;}
+.m-top-bottom-10px {margin-top: 10px; margin-bottom: 10px;}
 
 
 /* Padding */
 .p-7vw {padding: 7vw;}
+.p-20px {padding: 20px;}
 
 .p-top-2em {padding-top: 2em;}
 .p-top-3em {padding-top: 3em;}
@@ -77,7 +82,10 @@
 .hover-opacity:hover {opacity: 0.9;}
 
 
-.underline {border-bottom: 3px solid var(--color-primary);}
+.underline {
+    border-bottom: 3px solid var(--color-primary);
+    padding-bottom: 10px;
+}
 
 
 .container {width: 80vw; margin: auto; padding: 7vw;}
@@ -168,4 +176,11 @@ nav .logo {
 
 .section-2 img {
     width: 50vw;
+}
+
+
+/* STYLIZE PRODUCT CATEGORY IMAGES */
+
+.product-category-img {
+    width: 17vh;
 }
