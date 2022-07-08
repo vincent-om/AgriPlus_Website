@@ -57,23 +57,18 @@
 .m-left-right {margin-left: 0.6rem; margin-right: 0.6rem;}
 .m-top-bottom {margin-top: 1rem; margin-bottom: 1rem;}
 
+
 /* Padding */
 .p-7vw {padding: 7vw;}
 .p-top-2em {padding-top: 2em;}
 .p-bottom-2em {padding-bottom: 2em;}
 
 
-
-/* STYLIZE CLASSES */
-.btn {
-    padding: 0.6em;
-    text-align: center;
-    background-color: var(--color-primary);
+.hover-shadow:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.hover-opacity:hover {
-    opacity: 0.9;
-}
+.hover-opacity:hover {opacity: 0.9;}
 
 
 /* STYLE ELEMENTS */
@@ -86,6 +81,12 @@ a {text-decoration: none;}
 nav > div {
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
+}
+
+#get-started-button {
+    padding: 0.6em;
+    text-align: center;
+    background-color: var(--color-primary);
 }
 
 nav div:nth-child(1) a:hover,
@@ -127,3 +128,10 @@ nav .logo {
 
 /* The text should always appear above the vegetables */
 .section-1 .text {position: absolute; z-index: 2;}
+
+#explore-more-button {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--color-primary);
+    margin-top: 9rem;
+}
