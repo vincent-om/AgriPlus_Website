@@ -6,6 +6,17 @@
     box-sizing: border-box;
     
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.x-small-font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.small-font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 
@@ -62,10 +73,11 @@
 .m-auto {margin: auto;}
 .m-top-1rem {margin-top: 1rem;}
 .m-top-3px {margin-top: 3px;}
+.m-top-10px {margin-top: 10px;}
 .m-left-right {margin-left: 0.6rem; margin-right: 0.6rem;}
 .m-top-bottom {margin-top: 1rem; margin-bottom: 1rem;}
 .m-top-bottom-2rem {margin-top: 2rem; margin-bottom: 2rem;}
-.m-top-bottom-5x {margin-top: 5px; margin-bottom: 5px;}
+.m-top-bottom-5px {margin-top: 5px; margin-bottom: 5px;}
 .m-top-bottom-10px {margin-top: 10px; margin-bottom: 10px;}
 
 .m-bottom-1rem {margin-bottom: 1rem;}
@@ -105,8 +117,8 @@ a {text-decoration: none;}
 
 /* STYLIZE THE NAVBAR */
 nav > div {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 #get-started-button {
@@ -128,13 +140,13 @@ a:active {
 
 nav .logo {
     font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
+    font-weight: 900;
 }
 
 
 /* STYLIZE SECTION 1 */
 .section-1 {
-    height: 60vw;
+    height: 57vw;
     background-image: url(/assets/image\ 1.png);
     background-size: contain;
     background-repeat: repeat-x;
@@ -168,7 +180,7 @@ nav .logo {
 
 .statistics {
     position: absolute;
-    padding: 50px 30px;
+    padding: 40px 10px;
     left: 27%;
     right: 16%;
     top: -100px;
@@ -182,7 +194,14 @@ nav .logo {
 }
 
 .section-2 img {
-    width: 50vw;
+    width: 40vw;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.section-2 #why-we-exist-text-box {
+    width: 40vw;
 }
 
 
@@ -190,6 +209,12 @@ nav .logo {
 
 .product-category-img {
     width: 17vh;
+}
+
+
+/* STYLE THE EMPTY SECTION BETWEEN SECTION 3 AND 4 */
+div .empty {
+
 }
 
 /* STYLE SECTION 4 */
