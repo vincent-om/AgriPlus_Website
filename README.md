@@ -26,6 +26,9 @@ HTML and CSS
 ### Prerequisites
 A browser, preferably Google Chrome
 
+### Dependancies
+The project is made with some of the most supported elements of HTML and CSS. It is therefore expected to run in most popular browsers including Chrome, Mozilla, and Edge. Put simply, there are little to no dependancies to worry about
+
 ### Setup Instructions
 1. Fork the repository to get your own copy of the repository and clone it using the command `git clone` to get your loc. You can also directly clone this repository to get it locally in your computer
 2. Open the terminal and navigate to the relevant directory containing the html and css files
