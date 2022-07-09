@@ -229,3 +229,12 @@ footer .column-2 {
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+footer li a:hover { border-bottom: 3px solid #ed661f; }
+
+footer li a:active {color: #ed661f;}
+
+footer .stores img {
+    width: 80px;
+    margin-top: 10px;
+}
