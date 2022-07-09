@@ -180,7 +180,12 @@ nav .logo {
 }
 
 /* The text should always appear above the vegetables */
-.section-1 .text {position: absolute; z-index: 2;}
+.section-1 .text {
+    position: absolute;
+    top: 6w;
+    left: 8vw;
+    z-index: 2;
+}
 
 #explore-more-button {
     margin-top: 3vw;
