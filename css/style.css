@@ -60,6 +60,7 @@
 
 /* Margin */
 .m-auto {margin: auto;}
+.m-top-1rem {margin-top: 1rem;}
 .m-left-right {margin-left: 0.6rem; margin-right: 0.6rem;}
 .m-top-bottom {margin-top: 1rem; margin-bottom: 1rem;}
 .m-top-bottom-5x {margin-top: 5px; margin-bottom: 5px;}
@@ -78,6 +79,7 @@
 .p-top-5em {padding-top: 5em;}
 
 .p-bottom-2em {padding-bottom: 2em;}
+.p-bottom-3em {padding-bottom: 3em;}
 
 /* Hover */
 .hover-shadow:hover {box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); }
@@ -189,6 +191,28 @@ nav .logo {
 }
 
 /* STYLE SECTION 4 */
-.section-4 .customer-feedback-text {
-    font-size: 18px;
+.section-4 .feedback-image {
+    height: 50px;
+    width: 50px;
+}
+
+.section-4 .customer-feedback {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    flex-basis: 33%;
+}
+
+.section-4 .customer-feedback:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    background-color: white;
+}
+
+
+/* STYLE THE FOOTER */
+footer form input {
+    border: none;
+    padding: 10px;
+    margin: 0;
+    outline: none;
 }
