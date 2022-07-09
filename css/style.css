@@ -21,7 +21,7 @@
 .align-center {align-items: center;}
 .align-start {align-items: flex-start;}
 .align-end {align-items: flex-end;}
-.flex-basis-20pc {flex-basis: 20%;}
+.flex-basis-30pc {flex-basis: 30%;}
 .grow-1 {flex-grow: 1;}
 .shrink-1 {flex-shrink: 1;}
 
@@ -39,6 +39,7 @@
 .width-50vw {width: 50vw;}
 .width-40vw {width: 40vw;}
 .width-30vw {width: 30vw;}
+.width-25vw {width: 25vw;}
 
 /* Height */
 .height-100pc {height: 100pc;}
